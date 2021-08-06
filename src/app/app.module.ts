@@ -11,9 +11,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { WeatherComponent } from './weather/weather.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
-  declarations: [AppComponent, WeatherComponent],
+  declarations: [AppComponent, WeatherComponent, HeaderComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
